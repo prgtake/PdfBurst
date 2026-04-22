@@ -1,3 +1,10 @@
+# =====================================================
+#  PdfCrop (v1.0.0)
+#  Copyright (c) 2026 Datan (データン)
+#  Licensed under the MIT License.
+#  (See LICENSE file for details)
+# =====================================================
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import fitz  # PyMuPDF
