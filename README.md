@@ -51,15 +51,17 @@ Copyright (c) 2026 Datan (データン)
 
 ---
 
-# PdfCrop (v1.0.0)
+# PdfBurst (v1.0.0)
 
-PdfBurst is a desktop application designed to crop specific areas from PDF files and save them as high-quality JPEG images. With its intuitive GUI, it is specifically tailored for quickly extracting figures and tables from research papers and documents.
+PdfBurst is a desktop application designed to "continuously" crop specific areas from PDF files and save them as high-quality JPEG images. With its intuitive GUI, it is specifically tailored for quickly and *continuously* extracting figures and tables from research papers and documents.
+
+*Note: While the standard Windows Snipping Tool works for a few crops, it becomes tedious when you need to extract dozens of images from a single PDF. This tool was created to solve that problem by streamlining the process for batch-like, continuous extraction.*
 
 ## Features
 
 - **High-Quality Rendering**: Uses internal high-resolution rendering (2.0x zoom) to ensure cropped images are sharp and clear.
 - **Free-Form Selection**: Easily select the area you want to save by clicking and dragging your mouse.
-- **Continuous Auto-Save Mode**: Includes an efficient mode that skips the "Save As" dialog, allowing you to save multiple crops rapidly with just a drag-and-release action.
+- **Continuous Auto-Save Mode**: Includes an efficient mode that skips the "Save As" dialog, allowing you to save multiple crops *rapidly and continuously* with just a drag-and-release action.
 - **Zoom Display**: Adjust the on-screen display scale (from 50% to 200%) to precisely select small details.
 - **Scroll Support**: Handles large pages with scrollbars to ensure you can view the entire document.
 
@@ -92,7 +94,7 @@ pip install pymupdf pillow
 3. Use the **"Prev"** and **"Next"** buttons to navigate through pages, and adjust the **"Zoom"** level if necessary.
 4. **Drag your mouse** over the area of the PDF you want to save.
    - **Normal Mode**: A confirmation dialog will appear when you release the mouse.
-   - **Continuous Auto-Save Mode**: If checked, the image will be saved automatically to the application's directory as soon as you release the mouse.
+   - **Continuous Auto-Save Mode**: If checked, the image will be saved automatically to the application's directory as soon as you release the mouse, allowing for *seamless, back-to-back cropping*.
 5. Cropped images are saved as JPEG files in your chosen location (or the application's folder).
 
 ## License
