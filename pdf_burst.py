@@ -1,5 +1,5 @@
 # =====================================================
-#  PdfCrop (v1.0.0)
+#  PdfBurst (v1.0.0)
 #  Copyright (c) 2026 Datan (データン)
 #  Licensed under the MIT License.
 #  (See LICENSE file for details)
@@ -32,7 +32,7 @@ class PdfCropperApp:
     def __init__(self, root):
         self.root = root
         # タイトルバーにアプリ名とバージョンを表示するように修正
-        self.root.title(f"PdfCrop (v{APP_VERSION})")
+        self.root.title(f"PdfBurst (v{APP_VERSION})")
         self.root.geometry("1000x800")
 
         # --- 状態管理変数 ---

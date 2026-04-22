@@ -1,6 +1,8 @@
-# PdfCrop (v1.0.0)
+# PdfBurst (v1.0.0)
 
-PdfCropは、PDFファイルから特定の範囲を選択して高画質な画像（JPEG）として切り出すためのデスクトップアプリケーションです。直感的なGUI操作で、論文や資料から図表を素早く抽出することに特化しています。
+PdfBurstは、PDFファイルから特定の範囲を選択して高画質な画像（JPEG）として『連続して』切り出すためのデスクトップアプリケーションです。直感的なGUI操作で、論文や資料から図表を素早く『連続して』抽出することに特化しています。
+
+※数枚の切り出しであれば、Windows標準の Snipping Tool で足りるのですが、一つのPDFから何十枚とJPEGを切り出すには Snipping Tool では手間がかかりすぎます。そこで作成したのがこのツールです。
 
 ## 特徴
 
@@ -33,7 +35,7 @@ pip install pymupdf pillow
 
 1. アプリを起動します：
    ```bash
-   python pdf_cropper.py
+   python pdf_burst.py
    ```
 2. **「PDFを開く」**ボタンをクリックし、対象のPDFファイルを選択します。
 3. 必要に応じて**「前」「次」**ボタンでページを移動したり、**「表示倍率」**を調整したりします。
@@ -51,7 +53,7 @@ Copyright (c) 2026 Datan (データン)
 
 # PdfCrop (v1.0.0)
 
-PdfCrop is a desktop application designed to crop specific areas from PDF files and save them as high-quality JPEG images. With its intuitive GUI, it is specifically tailored for quickly extracting figures and tables from research papers and documents.
+PdfBurst is a desktop application designed to crop specific areas from PDF files and save them as high-quality JPEG images. With its intuitive GUI, it is specifically tailored for quickly extracting figures and tables from research papers and documents.
 
 ## Features
 
@@ -84,7 +86,7 @@ pip install pymupdf pillow
 
 1. Launch the application:
    ```bash
-   python pdf_cropper.py
+   python pdf_burst.py
    ```
 2. Click the **"Open PDF"** button and select your target PDF file.
 3. Use the **"Prev"** and **"Next"** buttons to navigate through pages, and adjust the **"Zoom"** level if necessary.
