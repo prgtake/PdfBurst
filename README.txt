@@ -43,4 +43,4 @@ Copyright (c) 2026 Datan (データン)
 ■ 開発・サポート
 -----------------------------------------------------
 不具合報告やご要望は、GitHubのリポジトリまでお願いいたします。
-https://github.com/prgta/PdfCrop
+https://github.com/prgta/PdfBurst
